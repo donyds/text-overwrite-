@@ -1,0 +1,9 @@
+<script>
+        jQuery(document).ready(function() {
+        jQuery('div.woocommerce-variation-add-to-cart button').each(function() {
+        if(jQuery(this).text() == "Add to cart")
+        jQuery(this).text("בדוק האם המשקפיים זמינים");
+        });
+       });
+
+</script>
